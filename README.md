@@ -178,9 +178,8 @@ run_all.sh            полный прогон
 - **Один seed** в экспериментах со сдвигом и SVG; пять seed в эксперименте с малыми выборками (кроме herding).
 - Дальше: повторить эксперимент со сдвигом на нескольких пробах и разбиениях калибровки, добавить бенчмарк с естественным сдвигом в родном разрешении, собрать попарные предпочтения людей для искажённых иконок и сравнить с дообученной моделью.
 
-## Данные, модели и лицензии
+## Данные и модели
 
-- **Код**: лицензия MIT, см. `LICENSE`.
 - **CIFAR-100**: A. Krizhevsky, *Learning Multiple Layers of Features from Tiny Images*, 2009, https://www.cs.toronto.edu/~kriz/cifar.html. Скачивается при запуске и не распространяется; формальной лицензии на странице датасета нет.
 - **Twemoji**: графика из форка jdecked/twemoji, тег v17.0.3, https://github.com/jdecked/twemoji, copyright Twitter, Inc. and other contributors, лицензия CC-BY 4.0 (https://creativecommons.org/licenses/by/4.0/). На `figures/svg_examples.png` показана отрендеренная и изменённая графика Twemoji.
 - **CLIP ViT-B/32**: Radford et al., *Learning Transferable Visual Models From Natural Language Supervision*, 2021; веса `openai/clip-vit-base-patch32` с Hugging Face Hub, лицензия MIT.
